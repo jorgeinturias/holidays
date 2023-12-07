@@ -34,7 +34,7 @@ body {
 
 .container {
     max-width: 700px;
-    width: 90%;
+    width: 95%;
     margin: 50px auto;
     font-size: 18px;
 }
@@ -58,4 +58,19 @@ body {
     position: absolute;
     width: 100%;
     bottom: 0;
+}
+
+@media (max-width:768px) {
+    .container {
+        font-size: 14px;
+    }
+    .container th {
+        padding: 5px 5px;
+    }
+    .container td {
+        padding: 5px 5px;
+    }
+    .footer {
+        position: relative;
+    }
 }
